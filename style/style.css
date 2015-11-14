@@ -1,0 +1,295 @@
+.parallax-parent {
+		height: 100vh;
+		overflow: hidden;
+		position: relative;
+	}
+.parallax-image{
+		height: 200%;
+		position: relative;
+		top: -100%;
+	}
+
+.parallax-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%, -50%, 0);
+	}
+/*.parallax-parent > * {
+		height: 200%;
+		position: relative;
+		top: -100%;*/
+
+.parallaxParent {
+		height: 100vh;
+		overflow: hidden;
+	}
+	
+.parallaxParent > * {
+		height: 200%;
+		position: relative;
+		top: -100%;
+	}
+
+.spacer {
+	background: blue;
+	height: 200px;
+}
+
+
+.mapimage {
+	max-width: 50%;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+#boxes,
+#boxes2 {
+	background: yellow;
+	width: 500px;
+	border: 2px solid #000;
+}
+
+.body {
+	background-color: yellow;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	margin: 2px;
+	float: left;
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-family:helvetica;
+	margin: 20px;
+}
+
+nav {
+	background: white;
+	color: black;
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 100;
+}
+
+.name {
+	font-size: 2em;
+	margin-top: 18px;
+	margin-left: 10px;
+	float: left;
+}
+
+.mainnav {
+	float: right;
+	display: inline;
+	padding-right: 50px;
+	padding-bottom: -20px;
+	margin-top: 30px;
+}
+
+.navlist {
+	display:inline;
+	word-spacing: 10px;
+}
+
+.welcome .parallax-image {
+	background-image: url("../images/test.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.welcome {
+	height: 600px;
+/*	width: 100%;*/
+	margin-top:50px;
+	text-align: center;
+}
+.logos .parallax-image {
+	background-image: url("../images/purple.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logos {
+	height: 600px;
+	/*margin-top: 100px;*/
+	text-align: center;
+
+}
+.mapscreen .parallax-image-map {
+	background-image: url("../images/logos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.mapscreen {
+	height: 600px;
+	margin-top:100px;
+	text-align: center;
+}
+
+.mapimage {
+	max-width: 100%;
+}
+
+.experience {
+		height: 700px;
+		margin-top: 0px;
+		text-align: center;
+		width: 100%;
+}
+
+.logos {
+	height: 900px;
+	margin: 0 auto;
+}
+
+
+.experience .parallax-image-exp {
+	background-image: url("../images/test.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.funthings {
+	height: 400px;
+}
+
+.headings {
+	font-size: 1.5em;
+	position: center;
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mapnav {
+	display: block;
+}
+.qubitlogo {
+	height: 45%;
+	width: 45%;
+	display: block;
+	margin: 0 auto;
+
+}
+.qpara {
+	width: 75%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.qubitlogomini {
+	height: 30%;
+	width: 30%;
+}
+.qubit {
+margin-top: 20px;
+clear: both;
+}
+
+.qubitcopy {
+	float:left;
+	max-width: 50%;
+}
+
+iframe {
+	float: right;
+	max-width: 50%;
+}
+
+.companylogo {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+.bowandarrow {
+	float:left;
+	max-width: 30%;
+	margin-left: 5%;
+}
+
+.propellerfish {
+	float: left;
+	max-width: 30%;
+}
+
+.rocksteady {
+	float: left;
+	max-width: 30%;
+	margin-right: 5%;
+}
+
+.secondaryexperience p{
+	text-align: center;
+	margin-top: 25px;
+}
+.secondaryexperience {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+	margin-top:3%;
+}
+
+.propellerfishlogo {
+	height: 45px;
+	display: block;
+	padding-top: 52.5px;
+	padding-bottom: 52.5px;
+	margin: 0 auto;
+
+}
+
+.education {
+	display: block;
+	margin: 0 auto;
+	max-width: 70%;
+	height: 700px;
+}
+.education p{
+	display: block;
+	margin-left: 150px;
+}
+.schoollogo {
+	max-width: 10%;
+	max-height: 10%;
+	float: left;
+}
+.ubc,.nus,.queens,.ga {
+	width: 100%;
+	margin: 15px;
+	margin-right: 20%;
+}
+.education .ubc,.nus,.queens,.ga {
+	float: left;
+}
+footer {
+	background: src(../images/test.jpg);
+}
+
+.squash {
+	max-width: 100%;
+}
+
+.footernav {
+	float:left;
+}
+
