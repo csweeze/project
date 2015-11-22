@@ -1,28 +1,8 @@
-/*.parallax-parent {
-		height: 100vh;
-		overflow: hidden;
-		position: relative;
-	}
-.parallax-image{
-		height: 200%;
-		position: relative;
-		top: -100%;
-	}
 
-.parallax-content {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate3d(-50%, -50%, 0);
-	}*/
-/*.parallaxParent > * {
-		height: 200%;
-		position: relative;
-		top: -100%;*/
 
 @font-face {
 	font-family: bebasneue;
-	src: url("../BebasNeue.ttf");
+	src: url("BebasNeue.ttf");
 }
 .parallaxParent {
 		height: 100vh;
